@@ -20,4 +20,7 @@
     <string name="Exit" />
     <string name="Task" />
     <string name="task">Task</string>
+    <string name="Фотография">Фотография</string>
+    <string name="Задачи">Задачи</string>
+    <string name="Задачи_с_фотографиями">Задачи_с_фотографиями</string>
 </resources>
