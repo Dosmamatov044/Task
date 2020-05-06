@@ -15,6 +15,16 @@
 
     <EditText
 
+        android:id="@+id/Bekzat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="Bekzat"
+
+        />
+
+
+    <EditText
+
         android:id="@+id/edit_title"
         android:layout_width="match_parent"
 

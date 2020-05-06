@@ -3,12 +3,23 @@ import java.io.Serializable;
 
 public class Task implements Serializable {
 
-    String title;
-    String desc;
+    private String title;
+    private String desc;
+  private String bekzat;
 
-    public Task(String title, String desc) {
+
+
+
+
+    public Task(String title, String desc,String bekzat) {
         this.title = title;
         this.desc = desc;
+   this.bekzat=bekzat;
+
+    }
+
+    public Task() {
+
     }
 
 
@@ -26,5 +37,13 @@ public class Task implements Serializable {
 
     public void setDesc(String desc) {
         this.desc = desc;
+    }
+
+    public String getBekzat() {
+        return bekzat;
+    }
+
+    public void setBekzat(String bekzat) {
+        this.bekzat = bekzat;
     }
 }
